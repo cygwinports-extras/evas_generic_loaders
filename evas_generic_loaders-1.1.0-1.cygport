@@ -1,0 +1,8 @@
+DESCRIPTION="Additional image loaders for the Enlightenment canvas library"
+HOMEPAGE="http://www.enlightenment.org/"
+SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
+
+src_install() {
+	cd ${B}
+	cyginstall -j1
+}
