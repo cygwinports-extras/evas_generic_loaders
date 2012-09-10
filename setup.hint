@@ -1,7 +1,0 @@
-category: X11
-requires: libeina1 libgcc1 libglib2.0_0 libgstreamer0.10_0 libpoppler19 libraw5 libspectre1 libstdc++6 zlib0
-sdesc: "Additional image loaders for the Enlightenment canvas library"
-ldesc: "These are additional 'generic' loaders for Evas that are 
-stand-alone executables that evas may run from its generic loader 
-module. This means that if they crash, the application loading the image 
-does not crash also."
