@@ -1,6 +1,6 @@
 NAME="evas_generic_loaders"
 VERSION=1.7.0
-RELEASE=1
+RELEASE=2
 CATEGORY="X11"
 SUMMARY="Additional image loaders for the Enlightenment canvas library"
 DESCRIPTION="These are additional 'generic' loaders for Evas that are
