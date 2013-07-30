@@ -1,5 +1,5 @@
 NAME="evas_generic_loaders"
-VERSION=1.7.4
+VERSION=1.7.7
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="Additional image loaders for the Enlightenment canvas library"
@@ -8,7 +8,7 @@ stand-alone executables that evas may run from its generic loader module.
 This means that if they crash, the application loading the image does not
 crash also."
 HOMEPAGE="http://www.enlightenment.org/"
-SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
+SRC_URI="http://download.enlightenment.org/releases/${NAME}-${VERSION}.tar.bz2"
 
 DEPEND="pkgconfig(eina)
 	pkgconfig(gstreamer-0.10)
